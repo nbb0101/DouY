@@ -1,0 +1,163 @@
+.RecommendPage {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-size: 100% 100%;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.change {
+  position: absolute;
+  right: .5rem;
+  bottom: 1.5rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+.change img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.changeShow {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 1000;
+  background: #fff;
+  border-radius: 20px 20px 0 0;
+  transform: translateY(-100%);
+  transition: transform 1s ease;
+}
+
+.changeShow h1 {
+  width: 100%;
+  height: .8rem;
+  text-align: right;
+  line-height: .8rem;
+  padding: .2rem;
+  background: skyblue;
+}
+
+.changeShow ul {
+  margin-top: .2rem;
+}
+
+.changeShow ul li {
+  padding: 0 .2rem;
+  height: .8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.changeShow ul li span {
+  font-size: .32rem;
+}
+
+.changeShow .footer {
+  width: 100%;
+  height: 1rem;
+  background: hotpink;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.changeShow .footer input {
+  flex: 1;
+  height: 1rem;
+}
+
+.changeShow .footer span {
+  width: 2rem;
+  height: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  font-size: .34rem;
+}
+
+.changeHide {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 1000;
+  background: #fff;
+  border-radius: 20px 20px 0 0;
+  transform: translateY(0);
+  transition: transform 1s ease;
+}
+
+.changeHide h1 {
+  width: 100%;
+  height: .8rem;
+  text-align: right;
+  line-height: .8rem;
+  padding: .2rem;
+  background: skyblue;
+}
+
+.changeHide ul {
+  margin-top: .2rem;
+  margin-bottom: 1rem;
+  overflow: scroll;
+}
+
+.changeHide ul li {
+  padding: 0 .2rem;
+  height: .8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.changeHide ul li span {
+  font-size: .32rem;
+}
+
+.changeHide .footer {
+  width: 100%;
+  height: 1rem;
+  background: hotpink;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.changeHide .footer input {
+  flex: 1;
+  height: 1rem;
+}
+
+.changeHide .footer span {
+  width: 2rem;
+  height: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  font-size: .34rem;
+}
+
+.starShow {
+  color: red;
+}
+
+.starHide {
+  color: #ccc;
+}
